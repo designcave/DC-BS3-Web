@@ -1,0 +1,19 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass"
+// Import custom Bootstrap variables
+@import "bootstrap-variables"
+// Import Bootstrap for Sass
+@import "bootstrap"
+
+
+$font-stack: font-family: 'Lato', sans-serif;
+$headline-size: 80px;
+
+body {
+	background-color: $bg-color;
+}
+
+h1 {
+	font-size: $headline-size;
+	font: $font-stack;
+}
